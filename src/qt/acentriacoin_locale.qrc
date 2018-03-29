@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/acentriacoin_bg.qm</file>
+        <file alias="ca">locale/acentriacoin_ca.qm</file>
+        <file alias="cs">locale/acentriacoin_cs.qm</file>
+        <file alias="da">locale/acentriacoin_da.qm</file>
+        <file alias="de">locale/acentriacoin_de.qm</file>
+        <file alias="en">locale/acentriacoin_en.qm</file>
+        <file alias="en_US">locale/acentriacoin_en_US.qm</file>
+        <file alias="es">locale/acentriacoin_es.qm</file>
+        <file alias="fi">locale/acentriacoin_fi.qm</file>
+        <file alias="fr_FR">locale/acentriacoin_fr_FR.qm</file>
+        <file alias="it">locale/acentriacoin_it.qm</file>
+        <file alias="ja">locale/acentriacoin_ja.qm</file>
+        <file alias="ko_KR">locale/acentriacoin_ko_KR.qm</file>
+        <file alias="nl">locale/acentriacoin_nl.qm</file>
+        <file alias="pl">locale/acentriacoin_pl.qm</file>
+        <file alias="pt">locale/acentriacoin_pt.qm</file>
+        <file alias="pt_BR">locale/acentriacoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/acentriacoin_ro_RO.qm</file>
+        <file alias="ru">locale/acentriacoin_ru.qm</file>
+        <file alias="sk">locale/acentriacoin_sk.qm</file>
+        <file alias="sv">locale/acentriacoin_sv.qm</file>
+        <file alias="tr">locale/acentriacoin_tr.qm</file>
+        <file alias="uk">locale/acentriacoin_uk.qm</file>
+        <file alias="zh_CN">locale/acentriacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/acentriacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

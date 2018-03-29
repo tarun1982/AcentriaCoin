@@ -1,0 +1,26 @@
+[Unit]
+Description=AcentriaCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=acentriacoin
+Group=acentriacoin
+
+Type=forking
+PIDFile=/var/lib/acentriacoind/acentriacoind.pid
+
+ExecStart=/usr/bin/acentriacoind -daemon -pid=/var/lib/acentriacoind/acentriacoind.pid \
+          -conf=/etc/acentriacoin/acentriacoin.conf -datadir=/var/lib/acentriacoind
+
+ExecStop=-/usr/bin/acentriacoin-cli -conf=/etc/acentriacoin/acentriacoin.conf \
+         -datadir=/var/lib/acentriacoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

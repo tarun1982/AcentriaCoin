@@ -1,0 +1,26 @@
+# /etc/conf.d/acentriacoind: config file for /etc/init.d/acentriacoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/acentriacoin/acentriacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/acentriacoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/acentriacoind.pid"
+
+# Where to write acentriacoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/acentriacoind"
+
+# User and group to own acentriacoind process
+#BITCOIND_USER="acentriacoin"
+#BITCOIND_GROUP="acentriacoin"
+
+# Path to acentriacoind executable
+#BITCOIND_BIN="/usr/bin/acentriacoind"
+
+# Nice value to run acentriacoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
